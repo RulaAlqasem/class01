@@ -106,3 +106,19 @@ Given that a user clicks on an item other than the horned beasts, such as the ti
 How are we implementing it?
 When the user clicks on elements such as the header, footer or title of page, make something change using state.
 You can update the words, change the styles or add something new. Be creative.
+
+
+Passing Functions in Props
+Resources
+Overview
+you will be adding a feature to your Gallery Of Horns that allows the user to click on an image and display it as a modal.
+
+Number and name of feature: ______________Feature #1: Display a Modal__________________
+
+Estimate of time needed to complete: __4 H____
+
+Start time: __10 pm___
+
+Finish time: __2 am___
+
+Actual time needed to complete: __3 h___
