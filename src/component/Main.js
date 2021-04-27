@@ -6,31 +6,15 @@ import data from '../sets/data.json';
 import CardColumns from 'react-bootstrap/CardColumns'
 import CardGroup from 'react-bootstrap/CardGroup'
 
+import Cards from './Cards'
+
 class Main extends React.Component {
-
-    constructor(props){
-super(props);
-this.state={
-elementData:data
-};
-
-    }
     render() {
-
-        return (
-            
-            this.state.elementData.map( element=>{
-
-            return<CardGroup>
-                <HornedBeasts name={element.title}
-                 description={element.description} 
-                 imgUrl={element.image_url}
-                  />
-           </CardGroup>
-            }
-        )
-            
-        )
+     return (
+            <CardColumns>
+                <Cards/>
+            </CardColumns>   
+        )  
     }
 }
 export default Main;

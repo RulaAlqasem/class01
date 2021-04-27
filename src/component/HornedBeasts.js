@@ -23,7 +23,7 @@ class HornedBeasts extends React.Component{
 
     
     return (
-<Card >
+<Card  >
   <Card.Img variant="top" src={this.props.imgUrl}  alt={`${this.props.name}`} title={`${this.props.name}`} />
   <Card.Body>
     <Card.Title >{this.props.name}</Card.Title>

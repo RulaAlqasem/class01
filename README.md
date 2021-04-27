@@ -47,15 +47,21 @@ Resources
 ```
 ```
 
-Number and name of feature: ________________________________
+Number and name of feature: _Feature #1: Display images_____Feature #2: Allow users to vote for their favorite beast___________Feature 3: Bootstrap_______________
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 
+Feature #1 :4 h ;
+Feature 2: 30 m
+Feature 3: 30 m
+_____
 
 Start time: _____
+3 pm
 
 Finish time: _____
+12 pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: _____6 H
 
 ```
 
