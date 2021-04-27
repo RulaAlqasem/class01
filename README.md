@@ -38,6 +38,7 @@ Finish time: _____
 Actual time needed to complete: _____6 H
 
 ### class03
+
 Number and name of feature: ___________Feature #1: Display a Modal_____________________
 
 Estimate of time needed to complete: __4h___
@@ -45,5 +46,3 @@ Estimate of time needed to complete: __4h___
 Start time: __10 pm___
 
 Finish time: __2am___
-
-Actual time needed to complete: __3 h___
