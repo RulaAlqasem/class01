@@ -58,7 +58,7 @@ render() {
       <Header />
       <OurForm data={data} newState={this.filterModal} />
 
-      <Main elementData={this.state.newData} sowModal={this.showElement}  />
+      <Main elementData={this.state.newData} sowModal={this.showElement} />
       <SelectedBeast show={this.state.show}
         dontShow={this.dontShowElem}
         obj={this.state.obj}/>
