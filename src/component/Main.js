@@ -9,7 +9,7 @@ class Main extends React.Component {
 
 
 
-  
+
   render() {
 
     return ( <CardColumns> { this.props.elementData.map(element => {
