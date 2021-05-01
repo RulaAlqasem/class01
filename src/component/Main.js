@@ -7,15 +7,12 @@ import HornedBeasts from './HornedBeasts';
 
 class Main extends React.Component {
 
-  constructor(props) {
-    super(props);
-    this.state = {
-      elementData:this.props.data
-    };
 
-  }
+
+  
   render() {
-    let arraElment =this.state.elementData.map(element => {
+
+    return ( <CardColumns> { this.props.elementData.map(element => {
       return (
         <HornedBeasts name={element.title}
           description={element.description}
@@ -24,8 +21,7 @@ class Main extends React.Component {
         />
       );
 
-    });
-    return ( <CardColumns> {arraElment}</CardColumns>);
+    })}</CardColumns>);
 
 
   }
